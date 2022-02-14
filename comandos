@@ -1,0 +1,24 @@
+cd 		-> Nos permite navegar. (.. nos permite ir a una carpeta arriba/padre)
+ls 		-> Nos dice qué archivos y carpetas se encuentran en mi locación actual
+ls -l 	-> COMPLETA
+pwd 	-> Nos dice en dónde estamos
+mkdir	-> Creamos una nueva carpeta/directorio
+touch 	-> Nos permite crear un archivo
+mv 		-> Movemos un archivo de lugar
+chmod	-> Permisos (777)
+rm 		-> Eliminar archivo o carpeta (vacío)
+rm -rf	-> Eliminar archivo o carpeta (no vacío)
+rmdir	-> Eliminar carpeta
+
+GIT
+1) git init - Inicializa una carpeta como un repositorio localmente
+2) git add NombreArchivo  git add .
+3) git commit -m "Mensaje para el commit"
+4) git remote add origin url-del-github
+5) git push -u origin master | git push -u origin main
+
+La primera vez que lo hagamos nos pedirá el usuario de github y la contraseña OJO y muy importante, en vez de contraseña debemos de ingresar nuestro token
+--------------------
+6) git status - Nos dice el estado de mis archivos
+7) git log - Nos dice los commits que se hicieron. Despliega los commit hash
+8) git diff --stat HASH - nos muestra los cambios específicos para ese commit
